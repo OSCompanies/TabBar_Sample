@@ -13,6 +13,10 @@
 		DAA2C30927969B47000BCF23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA2C30727969B47000BCF23 /* Main.storyboard */; };
 		DAA2C30B27969B4A000BCF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA2C30A27969B4A000BCF23 /* Assets.xcassets */; };
 		DAA2C30E27969B4A000BCF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA2C30C27969B4A000BCF23 /* LaunchScreen.storyboard */; };
+		DAA2C31727969C51000BCF23 /* UIMainTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA2C31627969C51000BCF23 /* UIMainTabBarControllerViewController.swift */; };
+		DAA2C31927969D87000BCF23 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA2C31827969D87000BCF23 /* FirstViewController.swift */; };
+		DAA2C31B27969D91000BCF23 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA2C31A27969D91000BCF23 /* SecondViewController.swift */; };
+		DAA2C31D2796A884000BCF23 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DAA2C31C2796A884000BCF23 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DAA2C30A27969B4A000BCF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA2C30D27969B4A000BCF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAA2C30F27969B4A000BCF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA2C31627969C51000BCF23 /* UIMainTabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMainTabBarControllerViewController.swift; sourceTree = "<group>"; };
+		DAA2C31827969D87000BCF23 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DAA2C31A27969D91000BCF23 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DAA2C31C2796A884000BCF23 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		DAA2C2F527969B47000BCF23 = {
 			isa = PBXGroup;
 			children = (
+				DAA2C31C2796A884000BCF23 /* Readme.md */,
 				DAA2C30027969B47000BCF23 /* TabBar_Sample */,
 				DAA2C2FF27969B47000BCF23 /* Products */,
 			);
@@ -56,6 +65,7 @@
 		DAA2C30027969B47000BCF23 /* TabBar_Sample */ = {
 			isa = PBXGroup;
 			children = (
+				DAA2C31527969C2E000BCF23 /* Controller */,
 				DAA2C30127969B47000BCF23 /* AppDelegate.swift */,
 				DAA2C30327969B47000BCF23 /* SceneDelegate.swift */,
 				DAA2C30527969B47000BCF23 /* ViewController.swift */,
@@ -65,6 +75,16 @@
 				DAA2C30F27969B4A000BCF23 /* Info.plist */,
 			);
 			path = TabBar_Sample;
+			sourceTree = "<group>";
+		};
+		DAA2C31527969C2E000BCF23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAA2C31627969C51000BCF23 /* UIMainTabBarControllerViewController.swift */,
+				DAA2C31827969D87000BCF23 /* FirstViewController.swift */,
+				DAA2C31A27969D91000BCF23 /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 			files = (
 				DAA2C30E27969B4A000BCF23 /* LaunchScreen.storyboard in Resources */,
 				DAA2C30B27969B4A000BCF23 /* Assets.xcassets in Resources */,
+				DAA2C31D2796A884000BCF23 /* Readme.md in Resources */,
 				DAA2C30927969B47000BCF23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA2C31B27969D91000BCF23 /* SecondViewController.swift in Sources */,
+				DAA2C31927969D87000BCF23 /* FirstViewController.swift in Sources */,
 				DAA2C30627969B47000BCF23 /* ViewController.swift in Sources */,
 				DAA2C30227969B47000BCF23 /* AppDelegate.swift in Sources */,
 				DAA2C30427969B47000BCF23 /* SceneDelegate.swift in Sources */,
+				DAA2C31727969C51000BCF23 /* UIMainTabBarControllerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
